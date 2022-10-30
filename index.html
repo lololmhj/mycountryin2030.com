@@ -1,0 +1,133 @@
+<html>
+
+<head>
+	<title>الرئيسية</title>
+			              
+	                             
+
+	<link href="css/reset-min.css" rel="stylesheet" type="text/css">
+	<link href="css/fonts-min.css" rel="stylesheet" type="text/css">
+	<!-- General Stylesheet -->
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+
+	 
+
+
+	<!-- JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>	
+	<script src="js/flux.js" type="text/javascript" charset="utf-8"></script>
+
+	<script type="text/javascript" charset="utf-8">
+			$(function(){
+				if(!flux.browser.supportsTransitions)
+					alert("Flux Slider requires a browser that supports CSS3 transitions");
+					
+				window.f = new flux.slider('#slider', {
+					pagination: false,
+					controls: true,
+					transitions: ['explode', 'tiles3d', 'bars3d', 'cube', 'turn'],
+					autoplay: false
+				});
+				
+				$('.transitions').click(function(event){
+					event.preventDefault();
+					window.f.next($(event.target).data('transition'), $(event.target).data('params'));
+				});
+			});
+		</script>
+		
+
+	
+
+</head>
+<body>
+
+
+<audio style="display: none;" autoplay controls>
+  <source src="sound.wav" type="audio/wav">
+Your browser does not support the audio element.
+</audio>
+
+
+	<div id="wrapper">	
+		<header id="menu">
+
+			<ul id="left">	
+				<li><a href="index.html">الرئيسية</a></li>
+				<li><a href="Neom.html">مشروع نيوم</a></li>
+				<li><a href="redsea.html">مشروع البحر الأحمر</a></li>	
+				<li><a href="AlQeda.html">مشروع القدية</a></li>
+				<li><a href="Roshn.html">مشروع روشن</a></li>					
+			</ul>
+			
+			
+			
+			
+		
+		</header>
+
+
+		<div class="clear"></div>
+	
+
+		<div id="start" style="background-image: url(images/homecover.jpg)">
+
+			<h1> 2030</h1>
+			
+		</div>
+
+		<div class="clear"></div>
+
+		<div id="title">
+				<h1>برامج تحقيق الرؤية</h1>
+		</div>
+
+		<center>	
+			<div id="slider">
+				<img src="images/img3.jpg" width="1350px" height="700px" />
+				<img src="images/img4.jpg" width="1350px" height="700px" />
+				<img src="images/img5.jpg" width="1350px" height="700px" />
+				<img src="images/img6.jpg" width="1350px" height="700px" />
+				<img src="images/moha-bn-salman.jpg" width="1350px" height="700px" >
+			</div>
+			<br/>
+			
+		</center>
+
+		<div class="clear"></div>
+
+		<div id="content">
+			<h1>برنامج تطوير الصناعة الوطنية والخدمات اللوجستية
+			</h1>
+			<br/>
+			<p>يهدف البرنامج إلى تحويل المملكة إلى قوة صناعية رائدة ومنصة لوجستية عالمية عبر تعظيم القيمة المتحققة من قطاعي التعدين والطاقة والتركيز على محوري المحتوى المحلي والثورة الصناعية الرابعة، ليساهم البرنامج بشكل كبير في تعظيم الأثر الاقتصادي وتنويعه للقطاعات المستهدفة، واستدامة نمو تلك القطاعات وتحقيق ريادتها، وخلق بيئة استثمارية جاذبة فيها.</p>
+			<br/>
+		</div>
+
+		<div id="footer">
+			<center>
+			<div id="right-footer">
+				<img src="images/social.png" />
+				<div id="line"></div>
+				<h1 class="title-footer">وسائل التوصل</h1>
+				<p class="p-footer">تابعنا على منصات التواصل الاجتماعي لتعرف اخرالاخبار !</p>
+				<div class="social">
+					<img src="instagram.png" />
+					<img src="fb.png" />
+					<img src="gP.png" />
+					<img src="yt.png" />
+				</div>
+			</div>
+		</center>
+				
+			
+			<div class="clear"></div>
+
+			<center><h6 id="last">copyrights are saved</h6></center>
+		</div>
+	
+	</div>
+
+</body>
+
+</html>

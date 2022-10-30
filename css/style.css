@@ -1,0 +1,164 @@
+/** index.html **/
+
+html {background: #323232;font-family: "Droid Arabic Naskh";}
+
+body{font-family: "Droid Arabic Naskh";}
+
+#wrapper{height: auto;background: #e8e7e5;}
+
+#menu{width: 100%;height: 80px;background: #28ad6d;position: fixed;z-index:3000 ;/* margin-left: 49.5; */}
+#left {float:left;margin-left: 127px;}
+
+#right li {float: right;padding:0 15px;line-height:75px;text-decoration: none;color: #fff;font-size: 20px;}
+#left li {  float:left; padding:0 15px; min-width:40px; line-height:75px;}
+
+#menu ul li a {text-decoration: none; color: #fff; font-size: 20px;}
+
+
+.clear{ width:auto;height:0;clear:both;}
+
+#start {
+    width: 100%;
+    height:600px ;
+    background-image: url(/images/homecover.jpg) ;
+    background-position: center;
+    background-size: cover;
+	background-position-y:top ;
+}
+#start h1{
+    color: rgb(71, 179, 84);
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%,-50%);    
+}
+
+
+
+#title{background: #fff;width: 98.5%;height: 100px;text-align: center;padding: 10px;}
+#title h1 {font-size: 35px; margin-top: 15px; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(71, 179, 84);}
+#title h4 {font-size:32px;margin-bottom: 15px;}
+
+#slider{width: 100%;border-radius: 10px;}
+#slider img {width:1200px;height: 400px;}
+
+#content{background: #ccc6bc;width: 98.5%;height: 250px;text-align: center;padding: 10px;margin-top: 20px;}
+#content p {font-size: 16px;font-style: italic;margin-top: 20px;direction: rtl;text-align: center;}
+#content h1{font-size: 30px;margin-top: 30px; font-family: 'DroidArabicKufiRegular';}
+#content h2{font-size: 18px;font-style: italic;margin-top: 10px;}
+#content a {color: #000;font-weight: bold;}
+
+#footer{background: #323232;width: 100%;height: 350px;color: #fff;direction: rtl;padding-top: 50px;padding-bottom: 20px;/* margin-left: 49.5; */}
+#right-footer{color: #fff;width: 353px;text-align: center;}
+.title-footer{
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Droid Arabic Kufi";
+}
+.p-footer{
+    margin-top: 20px;
+    font-size: 16px;
+}
+.social img{
+    width: 50px;
+    margin-right: 10px;
+    margin-top: 43px;
+}
+
+
+
+#center{float:right;width: 353px;margin-top: -6px;margin-right: 134px;}
+
+
+#line{width: 325px;height: 2px;background: #fff;}
+
+#last {
+    margin-top: 55px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+ .menu:hover a  { display: block }
+ .menu a        {
+                     display: none;
+                     background-color: #964545;
+                     padding: 10px;
+                     }
+ .menu a:hover  { background-color: #323232 }
+
+
+
+
+
+
+.cont {
+    height: auto;
+    margin-top: 100px;
+    direction:rtl;
+    padding: 50px;
+    float: right;
+}
+.cont h1 {
+    font-family: "Droid Arabic Kufi";
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.cont p {
+    font-size: 22px;
+    margin-bottom: 30px;
+    float: right;
+    text-align: justify;
+    direction: rtl;
+    letter-spacing: 1px;
+}
+
+.cont p a{
+    text-decoration:none ;
+    color:green ;
+    font-size: 28px; ;
+    font-weight: bold;
+}
+
+.cont img{
+    width: 600px;
+}
+.cont2 h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.blocks{
+    height:600px ;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    width:30% ;
+    height: 300px;
+    background-color:#45c645;
+    margin-right:10px ;
+    padding: 10px;
+}
+
+.block .text{
+    width:40px ;
+    height: 40px;
+    background-color: white;
+    margin:0 auto;
+}
+
+.block p{
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+}
